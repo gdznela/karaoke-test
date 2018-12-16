@@ -1,0 +1,28 @@
+/* html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  } */
+  
+  /* .captions-area,  */
+  
+  .lyrics {
+    width: 640px;
+    height: 264px;
+    background-color: rgba(0,0,0,0.2);
+    position: relative;
+  }
+  
+  div.lyrics  {
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      color: green;
+    background-color: rgba(0,0,0,0.01);
+    border: 1px solid black;
+  }
+
+  .lyrics .highlight {
+      background-color: yellow;
+  }

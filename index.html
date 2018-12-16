@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Karaoke</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <video id="video" controls preload="metadata">
+        <source src="./Adele-Hello.mp4" type="video/mp4">
+        <track label="English" kind="captions" srclang="en" src="./Adele-Hello.vtt" default>
+    </video>
+    <div class="captions-hidden" style="display: none;"></div>
+  <div class="lyrics"></div>
+  <script src="vtt.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
